@@ -1,0 +1,22 @@
+{
+    "name": "niangpro/openapi",
+    "description": "Description OpenAPI générée à partir des routes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NiangProgrammeur"
+        }
+    ],
+    "homepage": "https://github.com/NiangPro/niangpro",
+    "require": {
+        "php": ">=8.1",
+        "niangpro/core": "self.version",
+        "niangpro/http": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Niang\\Core\\": "src/"
+        }
+    }
+}
